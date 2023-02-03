@@ -18,7 +18,8 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "NODE_ENV=production rollup -c",
+		"dev": "start-storybook -p 6006 --quiet",
+		"build": "set NODE_ENV=production&& rollup -c",
 		"build:storybook": "build-storybook",
 		"lint": "eslint . --ext .ts,.tsx,.js,.jsx",
 		"prepare": "husky install",
