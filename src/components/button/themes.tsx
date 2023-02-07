@@ -1,6 +1,7 @@
 import { css } from '@emotion/react';
 import { rgba } from '@src/utils/rgba';
 import {
+	DANGEROUS,
 	ERROR,
 	PRIMARY,
 	SECONDARY,
@@ -20,6 +21,9 @@ function getColorScheme(color: Color) {
 			return WARN;
 		case 'secondary':
 			return SECONDARY;
+		case 'dangerous':
+			return DANGEROUS;
+
 		case 'primary':
 		default:
 			return PRIMARY;

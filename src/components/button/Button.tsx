@@ -2,7 +2,13 @@ import { forwardRef } from 'react';
 import { classNames } from '@src/utils/classNames';
 import * as Sc from './Button.styled';
 
-export type Color = 'primary' | 'secondary' | 'success' | 'error' | 'warn';
+export type Color =
+	| 'primary'
+	| 'secondary'
+	| 'success'
+	| 'error'
+	| 'warn'
+	| 'dangerous';
 
 export type Variant = 'solid' | 'outline' | 'text';
 

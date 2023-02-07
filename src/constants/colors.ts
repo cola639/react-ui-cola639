@@ -7,3 +7,4 @@ export const SECONDARY = '#4b5563';
 export const SUCCESS = '#16a34a';
 export const ERROR = '#dc2626';
 export const WARN = '#eab308';
+export const DANGEROUS = ' #b12a5b';

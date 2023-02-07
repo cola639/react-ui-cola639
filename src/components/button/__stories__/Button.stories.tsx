@@ -56,3 +56,10 @@ Warn.args = {
 	onClick: action('clicked'),
 	children: 'Warn Button',
 };
+
+export const Dangerous = Template.bind({});
+Dangerous.args = {
+	color: 'dangerous',
+	onClick: action('clicked'),
+	children: 'Dangerous Button',
+};
