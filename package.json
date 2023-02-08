@@ -1,7 +1,7 @@
 {
-	"name": "@boilertown/react-ui-boilerplate",
+	"name": "@cola639/react-ui-cola639",
 	"version": "0.0.0",
-	"description": "React UI library boilerplate",
+	"description": "React UI library cola639",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/boilertown/react-ui-boilerplate.git"
@@ -89,7 +89,6 @@
 		"@typescript-eslint/parser": "^5.48.1",
 		"@zerollup/ts-transform-paths": "^1.7.18",
 		"babel-loader": "^9.1.2",
-		"antd": "^4.20.0",
 		"eslint": "8.31.0",
 		"eslint-config-prettier": "^8.6.0",
 		"eslint-plugin-jsx-a11y": "^6.7.1",
